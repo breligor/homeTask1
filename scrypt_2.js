@@ -1,5 +1,5 @@
 const week = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'];
-document.querySelector("#secondButton").onclick = () =>
+document.querySelector("#second-Button").onclick = () =>
     {
         for (let i = 0; i < 7; i++)
         {   //вставка на страницу

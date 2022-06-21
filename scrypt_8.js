@@ -4,5 +4,5 @@ document.querySelector("#ten-Button").onclick =
 function union () {
     let uniqArr = Array.from(new Set([...array1, ...array2]));
     const paragraph = document.querySelector('#text');
-    paragraph.innerHTML = 'Уникальный массив ' + '[' + uniqArr + ']';
+    paragraph.innerHTML = `Уникальный массив [ ${uniqArr} ]`;
 }
