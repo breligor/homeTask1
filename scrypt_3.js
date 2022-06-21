@@ -1,13 +1,11 @@
 const vegetables = ['Капуста', 'Репа', 'Редиска', 'Морковка'];
-let clonedArr=[];
-document.querySelector("#thirdButton").onclick =
-    function copyArr(){
+let clonedArr = [];
+document.querySelector("#third-Button").onclick =
+    function copyArr() {
         clonedArr = vegetables.slice();
-        //проверка типа
-        console.log(Array.isArray(clonedArr));
         //вставка на страницу
-        let paragraph= document.createElement("p");
-        let thirdDiv= document.getElementById('thirdDiv');
+        let paragraph = document.createElement("p");
+        let thirdDiv = document.getElementById('third-Div');
         paragraph.textContent = 'Копия массива: ' + clonedArr;
         thirdDiv.append(paragraph);
         paragraph.classList.add('center_p');
