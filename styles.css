@@ -1,0 +1,26 @@
+body{
+    margin:0;
+    font-size: 25px;
+}
+*,
+*:after,
+*:before{
+    box-sizing: border-box;
+}
+/*контейнер*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.task-container {
+    text-align: center;
+}
+.center_p {
+   text-align: center;
+}
+.paragraph-fs{
+    font-weight: bold;
+}
+button{
+    font-size: 20px;
+}
